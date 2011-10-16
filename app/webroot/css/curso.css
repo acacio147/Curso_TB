@@ -1,0 +1,62 @@
+body {
+  background:url('..img/08original.jpg') repeat;
+}
+
+h1#destaque_topo {
+  font-weight:normal;
+  font-size:1.5em;
+  text-align:left;
+  background:#D0DDA2; /*  #BBF2BB;*/ /*#90EE90;*/
+  padding:2em 1em 2em;
+  margin-bottom:0;
+}
+
+.lateral
+{
+  border:1px solid #90EE90;
+  background:#FFFFD3;
+  position:relative;
+  display: inline;
+  float: left;
+  margin-left: 1%;
+  margin-right: 0%;
+  width: 31%;
+}
+
+.campos
+{
+  border:1px solid #90EE90;
+  background:#FFFFD3; /* #DAFFFF;*/
+  position:relative;
+  display: inline;
+  float: left;
+  margin-left: 1%;
+  width: 66%;
+}
+
+.pagina {
+  background:#FFFFFF;
+}
+
+.limpa
+{
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  background:#FFFFFF;
+  width: 98%;
+}
+
+.largo
+{
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  background:#BBF2BB; /*#90EE90;*/
+}
+
+.rodape {
+  clear: both;
+  padding: 6px 10px;
+  text-align: right;
+}
