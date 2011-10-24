@@ -40,9 +40,7 @@
   Router::connect('/home',                array('controller' => 'pages', 'action' => 'display', 'home'));
   Router::connect('/inscricoes',          array('controller' => 'inscricoes', 'action' => 'inscrever'));
   Router::connect('/inscrever',           array('controller' => 'inscricoes', 'action' => 'inscrever'));
-/**
- * ...and connect the rest of 'Pages' controller's urls.
- */
+
   Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
   Router::connect('/paginas/*', array('controller' => 'pages', 'action' => 'display'));
 

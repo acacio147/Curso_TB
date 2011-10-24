@@ -135,7 +135,7 @@ h3#center {
   margin-left: 1%;
   margin-right: 0%;
   width: 27%;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .campos
@@ -180,6 +180,7 @@ h3#center {
   display: inline;
   float: left;
   margin-left: 5%;
+  margin-bottom: 3%;
 }
 
 .lateral_mapa

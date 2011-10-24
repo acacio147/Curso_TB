@@ -1,4 +1,5 @@
 <div class="lateral">
+
   <h3 id="center">Links Interessantes:</h3>
 
   <?php echo $this->Html->link('Blog do Grupo Ipê Amarelo', 'http://gipeamarelo.blogspot.com/', array('target'=>'_blank')); ?>
@@ -38,20 +39,32 @@
   </div>
 </div>
 
-<div class="campos">
-<h3 id="center">Seminário:</h3>
-  <div class="imagem_r">
-    <?php echo $html->image('joao20de20barro.jpg', array('WIDTH' => '200px', 'title' => "Solidariedade - autor desconhecido"));?>
-  </div>
-<br /><br />
-<br />
-<p id="center">
-  Voluntário, aquele que faz a diferença.</pre>
-
-<pre id="texto">
-  Será promovido um Seminário no Grupo Ipê Amarelo sobre um tema que muito se fala mas pouco se faz.
-  Alguns palestrantes já confirmaram presença.
-  Você já pode fazer sua inscrição - Veja link ao lado. !!!
-  Informações e mais detalhadas em breve.
-</pre>
+<div class="campos_l">
+<h3>Palestrante</h3>
+<table cellpadding="0" cellspacing="0">
+<thead>
+</thead>
+<tbody>
+  <tr>
+    <td>Id</td>
+    <td><?php echo $palestrante['Palestrante']['id']; ?></td>
+  </tr>
+  <tr>
+    <td>Nome</td>
+    <td><?php echo $palestrante['Palestrante']['nome'];?></td>
+  </tr>
+  <tr>
+    <td>Descrição</td>
+    <td><?php echo $palestrante['Palestrante']['descricao'];?></td>
+  </tr>
+  <tr>
+    <td>Site</td>
+    <td>
+        <?php echo $this->Html->link($palestrante['Palestrante']['site'],
+            'http://'.$palestrante['Palestrante']['site'],
+            array('target'=>'_blank')); ?>
+    </td>
+  </tr>
+</tbody>
+</table>
 </div>
